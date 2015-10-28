@@ -22,7 +22,7 @@ print(len(list2))
 
 difference = list(set(list1).difference(set(list2))) 
 
-print (difference) 
+print ("Difference between two lists %s " % difference) 
 
 listOfNumbers = ["1","2","3","4"]
 listOfNumbers = map(int, listOfNumbers) 
